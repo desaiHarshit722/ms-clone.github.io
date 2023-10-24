@@ -1,0 +1,71 @@
+@media (min-width: 851px) {
+    .close_after_md {
+        display: none;
+    }
+}
+@media screen and (max-width:850px){
+    #support-none{
+        display: none;
+    }
+    #all_microsoft  {
+        display: none;
+    }
+    nav .part1 ul {
+        display: none;
+    }
+    .close_on_md {
+        display: none;
+    }
+    nav .part1 {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .container {
+        background-image: url('');
+        /* height: 100%; */
+        height: auto;
+    }
+    .img_container2 {
+        display: flex;
+        justify-content: center;
+        /* height: 40%; */
+        width: 100%;
+    }
+    .img_container2 img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .container .center-text {
+        display: none;
+    }
+    .text-on-md {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 12px 0;
+        padding: 12px 24px;
+    }
+    .text-on-md h4 {
+        font-size: 24px;
+        margin: 12px 0;
+    }
+    .containerImages .images {
+        flex-wrap: wrap;
+    }
+    .container2Images {
+        flex-wrap: wrap;
+    }
+    .container4Images {
+        flex-wrap: wrap;
+    }
+    .container5 .box {
+        width: 90%;
+    }
+    .on_md_open_card {
+        display: block;
+        background-color: white;
+        color: black;
+        width: 100%;
+        margin: 12px;
+    }
+}
